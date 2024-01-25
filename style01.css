@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+.hero{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.Background{
+    Position: Absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform: translateZ(-40px) scale(5);
+}
+.foreground,.fore,.ground,.round,.for,.for1,.for2,.for3,.for4,.for5,.for6{
+    position: absolute;
+    height: 25%;
+    width: 15%;
+    z-index: -1;
+}
+.fore{
+    top: 40rem;
+    left: 10vh;
+    transform: translateZ(-10px) scale(4);
+}
+.for1{
+    top:30rem;
+    right:1rem;
+    transform: translateZ(-5px) scale(2);
+}
+.for2{
+    top:60rem;
+    right:20rem;
+    transform: translateZ(-30px) scale(3);
+}
+.for3{
+    top:2rem;
+    right:1rem;
+    transform: translateZ(-15px) scale(2);
+}
+.for4{
+    top:8rem;
+    left:8rem;
+    transform: translateZ(-20px) scale(1);
+}
+.for5{
+    top:40rem;
+    left:1rem;
+    transform: translateZ(-8px) scale(3);
+}
+.for6{
+    top:20rem;
+    left:4rem;
+    transform: translateZ(-16px) scale(2);
+}
+.for{
+    top: 5rem;
+    right: 10vh;
+    transform: translateZ(-15px) scale(3);
+}
+.ground{
+    top: 0rem;
+    left: 1vh;
+    transform: translateZ(-20px) scale(2);
+}
+.round{
+    top: 10rem;
+    right: 20vh;
+    transform: translateZ(-25px) scale(1);
+}
+.foreground{
+    top:60rem;
+    right:1vh;
+    transform: translateZ(-10px) scale(3);
+}
+h1{
+    position: absolute;
+    top: 10rem;
+    font-size: 10rem;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+section{
+    background-color: rgb(46, 136, 210);
+    color: white;
+    padding: 5rem 0;
+}
+
+.bg1{
+    background-image: url(https://th.bing.com/th/id/R.1d59b649fc556481ce874af82fea2534?rik=hPwgZPIJMS%2bZ8Q&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f1%2f49%2fLcprYi.jpg&ehk=3a601wMf%2fLNhRkFuvyc0R1KbQQDaE1Nuy%2fk2kEB6rhM%3d&risl=&pid=ImgRaw&r=0);
+}
+.bg2{
+    background-image: url(https://i.pinimg.com/originals/f4/cd/9b/f4cd9bcf3be68ce283266a6ad14199da.jpg);
+}
+.bg3{
+    background-image: url(https://images3.alphacoders.com/108/1089511.jpg);
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+    background-size: fixed;
+}
+h2{
+    position: absolute;
+    top: 5rem;
+    left:80vh;
+    color: black;
+    background-color: whitesmoke;
+}
